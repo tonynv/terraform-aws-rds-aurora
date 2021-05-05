@@ -99,7 +99,7 @@ variable "engine" {
 variable "engine_version" {
   description = "Aurora database engine version."
   type        = string
-  default     = "5.6.10a"
+  default     = "5.7.12"
 }
 
 variable "replica_scale_enabled" {
